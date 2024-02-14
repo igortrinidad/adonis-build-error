@@ -1,6 +1,6 @@
 import { HttpContext } from '@adonisjs/core/http'
 import { runHttpQuery } from 'apollo-server-core'
-import Graphql from '#app/services/Graphql/index.ts'
+import Graphql from '#app/services/Graphql/index'
 
 export default class GraphqlController {
   /**

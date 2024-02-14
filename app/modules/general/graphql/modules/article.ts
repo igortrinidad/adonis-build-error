@@ -1,8 +1,8 @@
-import Article from '#app/models/article.ts'
+import Article from '#app/models/article'
 export const typeDefs = `
 
   type Article {
-    
+
     id: ID!
     title: String
     content: String

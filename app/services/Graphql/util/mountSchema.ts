@@ -11,7 +11,13 @@ export default async (type = 'user') => {
   try {
     const modulesPath = path.join(process.cwd(), 'app/modules', type, 'graphql', 'modules')
 
-    const modulesFiles = fs.readdirSync(modulesPath)
+    const modulesFiles = fs
+      .readdirSync(modulesPath)
+      .filter((file) => !file.includes('.map'))
+      .map((file) => file.replace('.ts', '.js'))
+
+    console.log('modulesFiles: ', modulesFiles)
+    console.log(fs.readdirSync(modulesPath))
 
     const modules = []
 
