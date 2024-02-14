@@ -1,4 +1,4 @@
-import mountSchema from './util/mountSchema.js'
+import mountSchema from './util/mountSchema'
 
 class Graphql {
   [key: string]: any

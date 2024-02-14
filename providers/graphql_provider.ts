@@ -23,7 +23,7 @@ export default class GraphqlProvider {
    */
   async ready() {
     try {
-      const moduleImport = await import('../app/services/Graphql/index.ts')
+      const moduleImport = await import('../app/services/Graphql')
       const Graphql = moduleImport.default
       Graphql.boot()
       console.log('GraphqlProvider ready')

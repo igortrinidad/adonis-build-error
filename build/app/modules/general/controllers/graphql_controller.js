@@ -1,5 +1,5 @@
 import { runHttpQuery } from 'apollo-server-core';
-import Graphql from '#app/services/Graphql/index.ts';
+import Graphql from '../../../../app/services/Graphql';
 export default class GraphqlController {
     async interface({ request, view, response }) {
         const moduleType = request.url().split('/')[1];

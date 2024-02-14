@@ -1,4 +1,4 @@
-import Article from '#app/models/article.ts';
+import Article from '../../../../models/article';
 export const typeDefs = `
 
   type Article {
