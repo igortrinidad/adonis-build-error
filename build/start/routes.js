@@ -1,2 +1,2 @@
-import '#app/modules/general/routes.ts';
+import '#app/modules/general/routes';
 //# sourceMappingURL=routes.js.map

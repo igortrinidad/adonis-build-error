@@ -1,5 +1,5 @@
 import Router from '@adonisjs/core/services/router';
-import GraphqlController from './controllers/graphql_controller.ts';
+import GraphqlController from './controllers/graphql_controller';
 Router.get('/', async ({ response }) => {
     return response.status(404).json({ feedback: 'Not found!' });
 });

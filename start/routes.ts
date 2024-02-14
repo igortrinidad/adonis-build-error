@@ -10,4 +10,4 @@
 /**
  * General routes
  */
-import '#app/modules/general/routes.ts'
+import '#app/modules/general/routes'

@@ -1,5 +1,5 @@
 import Router from '@adonisjs/core/services/router'
-import GraphqlController from './controllers/graphql_controller.ts'
+import GraphqlController from './controllers/graphql_controller'
 
 /**
  * Root route returns Not found to avoid bot attacks
